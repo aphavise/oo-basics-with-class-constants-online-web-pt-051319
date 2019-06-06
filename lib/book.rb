@@ -5,6 +5,7 @@ class Book
   GENRES = [ ]
   
   def initialize(title)
+    binding.pry 
     @title = title
   end
 
